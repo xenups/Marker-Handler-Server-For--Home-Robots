@@ -1,0 +1,7 @@
+std_msgs/String marker_name
+#OPTIONAL: You can pass your own pose for marker
+#set use_custom_pose to "true" to use "marker_pose" variable as marker's pose 
+std_msgs/Bool use_custom_pose 
+geometry_msgs/PoseStamped marker_pose
+---
+
